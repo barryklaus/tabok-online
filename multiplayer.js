@@ -2,7 +2,7 @@
 (() => {
   'use strict';
 
-  const VERSION = 'v0.22.11 Multiplayer Alpha · M12';
+  const VERSION = 'v0.22.12 Multiplayer Alpha · M13';
   const TOKEN_KEY = 'tabok-multiplayer-token';
   const NAME_KEY = 'tabok-multiplayer-name';
   const NETWORK = window.TABOK_NETWORK || {};

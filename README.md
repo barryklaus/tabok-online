@@ -1,7 +1,7 @@
 # TABOK — Experimental WebGPU Edition
 
-Version: **v0.22.11 Multiplayer Alpha — All-CPU Spectator Mode**  
-Build: **2026.09.01.M12**
+Version: **v0.22.12 Multiplayer Alpha — Faster Turn Reveal**  
+Build: **2026.09.02.M13**
 
 ## Multiplayer alpha
 
@@ -10,8 +10,8 @@ Build: **2026.09.01.M12**
 - Human and CPU names and characters remain editable in the lobby. The host may also convert every active slot to CPU and run a fully automated spectator match with no Human seat required.
 - The pre-game roll-off uses a shrinking pool of starting positions from `1` through the active Traveler count. Every Human or CPU roll locks one unused position permanently, removes it from later results, and makes ties impossible. Highest position acts first and lowest acts last.
 - Every normal in-game Traveler turn now opens a character-focused dice scene. Human Travelers click to cast Movement, Action, and an owned Rune Die; CPU Travelers visibly prepare and automatically cast the same animated dice. The scene and raffle results synchronize to every connected device.
-- The turn-roll scene exists only during the active Traveler's roll phase. Once the dice land, their final results remain on screen for approximately three seconds before movement begins.
-- Turn dice now brake dramatically before the final reveal: rapid raffle cycling eases into increasingly slow beats, then lands on “Fate has decided.” The three-second result hold remains intact.
+- The turn-roll scene exists only during the active Traveler's roll phase. Once the dice land, their final results remain on screen for approximately two seconds before movement begins.
+- Turn dice brake dramatically before the final reveal: rapid raffle cycling eases into increasingly slow beats, then lands on “Fate has decided.” The result now holds for two seconds.
 - The central Portal is now the lightweight vector **Eclipse Well**. Its colors and motion shift globally through Idle, Judgment, Crossing, Rejection, and Reckoning, with the authoritative host synchronizing the current state to every connected device.
 - Host-controlled CPU Travelers now resolve Portal judgment, Last Breath, Answer-or-Die, and Major Monster message scenes automatically. The host may also tap their Continue button as a mobile-browser fallback; remote guests still cannot resolve another Traveler's decision.
 - Sound controls are now local on every multiplayer device and can no longer be blocked or forwarded by game-turn ownership. Mobile Safari resumes audio on the next touch after interruptions. Master output is 50% louder, with a dynamics limiter preventing overload distortion.
